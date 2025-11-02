@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASH_REGISTER</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal">
+        <header class="terminal-header">
+            <div class="window-controls">
+                <span class="control close"></span>
+                <span class="control minimize"></span>
+                <span class="control maximize"></span>
+            </div>
+            <div class="title-bar">
+                <span class="prompt">$</span>
+                <span class="title">CASH_REGISTER</span>
+                <span class="cursor">_</span>
+            </div>
+        </header>
+
+        <main class="terminal-body">
+            <div class="app-header">
+                <h1 class="app-title">~/transactions/register</h1>
+                <div class="status-bar">
+                    <span class="status-item">ACTIVE</span>
+                    <span class="status-item">v3.1.0</span>
+                    <span class="status-item">USD</span>
+                </div>
+            </div>
+
+            <div class="input-section">
+                <div class="input-header">
+                    <span class="input-title">TRANSACTION_DATA</span>
+                    <span class="input-desc">Enter purchase details</span>
+                </div>
+                <div class="input-group">
+                    <div class="input-row">
+                        <span class="input-label">PRICE:</span>
+                        <input type="number" id="price" class="terminal-input" step="0.01" value="1.87" readonly>
+                    </div>
+                    <div class="input-row">
+                        <span class="input-label">CASH:</span>
+                        <input type="number" id="cash" class="terminal-input" step="0.01" placeholder="Enter cash amount">
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="purchase-btn" class="terminal-btn primary">
+                    <span class="btn-text">[PROCESS]</span>
+                </button>
+                <button id="clear-btn" class="terminal-btn secondary">
+                    <span class="btn-text">[CLEAR]</span>
+                </button>
+            </div>
+
+            <div class="results-section">
+                <div class="results-header">
+                    <span class="results-title">TRANSACTION_RESULTS</span>
+                    <span class="results-status" id="results-status">READY</span>
+                </div>
+                <div id="change-due" class="results-content">
+                    <div class="placeholder">Transaction results will appear here...</div>
+                </div>
+            </div>
+
+            <div class="drawer-section">
+                <div class="drawer-header">
+                    <span class="drawer-title">CASH_DRAWER_STATUS</span>
+                    <span class="drawer-total" id="drawer-total">Total: $335.41</span>
+                </div>
+                <div id="cid-display" class="drawer-content">
+                    <!-- Cash drawer items will be displayed here -->
+                </div>
+            </div>
+        </main>
+
+        <footer class="terminal-footer">
+            <div class="footer-stats">
+                <span class="stat">STATUS: <span id="status">AWAITING_TRANSACTION</span></span>
+                <span class="stat">TRANSACTIONS: <span id="transaction-count">0</span></span>
+                <span class="stat">MODE: <span id="mode">AUTO_CALC</span></span>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
