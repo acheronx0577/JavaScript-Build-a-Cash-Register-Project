@@ -1,1 +1,126 @@
-# JavaScript-Build-a-Cash-Register-Project
+# 💰 Cyber Cash Register
+
+Welcome to **Cyber Cash Register** — a terminal-inspired cash register application with a cyberpunk aesthetic! This educational project demonstrates advanced JavaScript algorithms for change calculation, cash drawer management, and financial transaction processing with a unique dark terminal theme.
+
+---
+
+## 🎓 Certification
+
+**Course:** [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8)
+
+**Complete Your Certificate:**
+- ✅ This project (Cash Register) fulfills one requirement
+
+**Full Project Suite:** [25+ hands-on projects from Pyramid Generator to Final Certification Projects](https://github.com/acheronx0577/JavaScript-Algorithms-and-Data-Structures)
+- 🎓 Complete all projects to earn your certification
+
+This repository contains the complete portfolio of projects needed to demonstrate JavaScript proficiency and earn the freeCodeCamp certificate.
+
+---
+
+## 📸 Application Preview
+
+![Cash Register Interface](https://github.com/user-attachments/assets/f29af958-346a-47df-b7cf-069e11483d04)
+
+**Live Demo:** [Cyber Cash Register Demo](https://your-username.github.io/cyber-cash-register)
+
+---
+
+## 🎮 How to Use
+
+### Transaction Processing:
+- **Set Price**: Fixed at $1.87 (configurable in code)
+- **Enter Cash**: Input customer payment amount
+- **Process**: Click `[PROCESS]` to calculate change
+- **Clear**: Click `[CLEAR]` to reset inputs
+
+### Transaction Status:
+- **OPEN**: Normal transaction with change returned
+- **CLOSED**: Exact drawer amount used, empty drawer
+- **INSUFFICIENT_FUNDS**: Not enough money in drawer
+- **EXACT_CASH**: Customer paid exact amount
+
+### Keyboard Shortcuts:
+- **Enter**: Process transaction
+- **Tab**: Navigate between fields
+
+---
+
+## 🏪 Cash Register Features
+
+| Feature | Description | Example |
+|---------|-------------|---------|
+| **Change Calculation** | Optimal denomination selection | Quarters, dimes, nickels, pennies |
+| **Drawer Management** | Real-time cash drawer tracking | Updates after each transaction |
+| **Status Handling** | OPEN, CLOSED, INSUFFICIENT_FUNDS | Comprehensive edge case coverage |
+| **Currency Units** | 9 standard denominations | $100 to $0.01 |
+| **Transaction Logging** | Count and status tracking | Running total of processed transactions |
+
+---
+
+## 🧰 Installation & Usage
+
+### 1️⃣ Clone this repo
+```
+git clone git@github.com:acheronx0577/JavaScript-Building-a-Shopping-Cart.git
+```
+
+### 2️⃣ Run the file
+Just open `index.html` in your favorite browser 🌐 and start playing!
+
+---
+
+## 🎯 Key JavaScript Concepts
+
+- **Class-based Architecture**: `TerminalStore` class for organized code
+- **Array Methods**: `find()`, `filter()`, `reduce()`, `map()`
+- **Event Handling**: Click events, keyboard shortcuts, form interactions
+- **DOM Manipulation**: Dynamic content generation and updates
+- **Object Management**: Cart item tracking and quantity control
+- **Local Storage**: (Optional) Cart persistence between sessions
+- **Math Operations**: Price calculations with tax rates
+
+---
+
+## 🎨 Color Scheme & Design
+
+### Terminal Aesthetic:
+- **Primary Background**: Deep Cyber Blue (#0a0a12)
+- **Terminal Header**: Dark Purple (#151520)
+- **Product Cards**: Accent Purple (#252535)
+- **Cart Panel**: Tertiary Blue (#1e1e2a)
+
+### Interactive Elements:
+- **Primary Actions**: Electric Cyan (#00cccc)
+- **Danger Actions**: Neon Red (#ff5555)
+- **Success States**: Matrix Green (#40ff80)
+- **Text Primary**: Hacker Green (#e0e0ff)
+
+### Visual Effects:
+- **Glow Effects**: Subtle cyan shadows
+- **Hover States**: Smooth transitions and transforms
+- **Border Design**: Sharp terminal-style borders
+
+---
+
+## 🤝 Contributing
+
+Interested in enhancing this terminal store?  
+- Fork the repository 🍴  
+- Add new features or improve the UI ✍️  
+- Submit a Pull Request ✅  
+
+Potential enhancements:
+- Product search and filtering
+- User accounts and order history
+- Payment integration
+- Product images and descriptions
+- Local storage for cart persistence
+
+---
+
+## 📜 License
+
+This project is open-source under the **MIT License**.
+
+*Built with ❤️ through freeCodeCamp | Making e-commerce development accessible, one cart at a time*
