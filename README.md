@@ -70,39 +70,6 @@ Just open `index.html` in your favorite browser 🌐 and start playing!
 
 ---
 
-## 🎯 Key JavaScript Concepts
-
-- **Class-based Architecture**: `TerminalStore` class for organized code
-- **Array Methods**: `find()`, `filter()`, `reduce()`, `map()`
-- **Event Handling**: Click events, keyboard shortcuts, form interactions
-- **DOM Manipulation**: Dynamic content generation and updates
-- **Object Management**: Cart item tracking and quantity control
-- **Local Storage**: (Optional) Cart persistence between sessions
-- **Math Operations**: Price calculations with tax rates
-
----
-
-## 🎨 Color Scheme & Design
-
-### Terminal Aesthetic:
-- **Primary Background**: Deep Cyber Blue (#0a0a12)
-- **Terminal Header**: Dark Purple (#151520)
-- **Product Cards**: Accent Purple (#252535)
-- **Cart Panel**: Tertiary Blue (#1e1e2a)
-
-### Interactive Elements:
-- **Primary Actions**: Electric Cyan (#00cccc)
-- **Danger Actions**: Neon Red (#ff5555)
-- **Success States**: Matrix Green (#40ff80)
-- **Text Primary**: Hacker Green (#e0e0ff)
-
-### Visual Effects:
-- **Glow Effects**: Subtle cyan shadows
-- **Hover States**: Smooth transitions and transforms
-- **Border Design**: Sharp terminal-style borders
-
----
-
 ## 🤝 Contributing
 
 Interested in enhancing this terminal store?  
