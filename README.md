@@ -22,7 +22,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 <img width="1040" height="955" alt="image" src="https://github.com/user-attachments/assets/ad08bc33-4c55-4eb3-b899-68d486e50bcd" />
 
-**Live Demo:** https://your-username.github.io/cyber-cash-register
+**Live Demo:** https://acheronx0577.github.io/JavaScript-Build-a-Cash-Register-Project
 
 ---
 
