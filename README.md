@@ -20,9 +20,9 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 ## 📸 Application Preview
 
-![Cash Register Interface](https://github.com/user-attachments/assets/f29af958-346a-47df-b7cf-069e11483d04)
+<img width="1040" height="955" alt="image" src="https://github.com/user-attachments/assets/ad08bc33-4c55-4eb3-b899-68d486e50bcd" />
 
-**Live Demo:** [Cyber Cash Register Demo](https://your-username.github.io/cyber-cash-register)
+**Live Demo:** https://your-username.github.io/cyber-cash-register
 
 ---
 
